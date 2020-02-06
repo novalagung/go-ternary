@@ -5,6 +5,7 @@ go:
   - go1.13
 go_import_path: github.com/novalagung/go-ternary
 install:
+  - go get github.com/mattn/goveralls
   - go mod tidy
 script:
   - go test -cover -race -v ./...
