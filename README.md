@@ -33,26 +33,35 @@ func main() {
 ### Other Example
 
 ```go
+// example 1
 Ternary(cond1 == cond2, float32(23.2), float64(44.21)).AsFloat32()
 
+// example 2
 Ternary(
     func () bool { return cond1 == cond2 },
     float32(23.2),
     float64(44.21),
 ).AsFloat32()
 
+// example 3
 Ternary(
     cond1 == cond2,
     func () []string { return arr },
     make([]string, 0),
-).AsInterface().([]string)
+).
+ExecIfResultIsFunc().
+AsInterface().
+([]string)
 
+// example 4
 value := make([]string, 0)
 Ternary(
     cond1 == cond2,
     func () []string { return arr },
     make([]string, 0),
-).StoreTo(&value)
+).
+ExecIfResultIsFunc().
+StoreTo(&value)
 ```
 
 ## Documentation
