@@ -20,7 +20,7 @@ go get -u github.com/novalagung/go-ternary
 package main
 
 import (
-	. "github.com/novalagung/go-ternary"
+    . "github.com/novalagung/go-ternary"
 )
 
 func main() {
