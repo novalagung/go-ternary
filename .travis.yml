@@ -1,0 +1,11 @@
+language: go
+os:
+  - linux
+go:
+  - go1.13
+go_import_path: github.com/novalagung/go-ternary
+install:
+  - go mod tidy
+script:
+  - go test -cover -race -v ./...
+  - $GOPATH/bin/goveralls -service=travis-ci
