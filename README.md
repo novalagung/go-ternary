@@ -66,7 +66,8 @@ StoreTo(&value)
 
 ## Documentation
 
-[https://pkg.go.dev/github.com/novalagung/go-ternary](https://pkg.go.dev/github.com/novalagung/go-ternary)
+- [godoc](https://godoc.org/github.com/novalagung/go-ternary)
+- [pkg.go.dev](https://pkg.go.dev/github.com/novalagung/go-ternary)
 
 ## License
 
