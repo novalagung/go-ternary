@@ -1,8 +1,8 @@
 # go-ternary
 
-Ternary helper for Go programming language.
+Ternary helper for Go programming language. Helpful for anyone who love to always solve things in single line statement.
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/novalagung/go-ternary)](https://goreportcard.com/report/github.com/novalagung/go-ternary)
+[![Go Report Card](https://goreportcard.com/badge/github.com/novalagung/go-ternary?no-cache=1)](https://goreportcard.com/report/github.com/novalagung/go-ternary)
 [![Build Status](https://travis-ci.org/novalagung/go-ternary.svg?branch=master)](https://travis-ci.org/novalagung/go-ternary)
 [![Coverage Status](https://coveralls.io/repos/github/novalagung/go-ternary/badge.svg?branch=master)](https://coveralls.io/github/novalagung/go-ternary?branch=master)
 
