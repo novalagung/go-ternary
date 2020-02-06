@@ -57,7 +57,7 @@ Ternary(
 
 ## Documentation
 
-- [Pkg Dev](https://pkg.go.dev/github.com/novalagung/go-ternary)
+[https://pkg.go.dev/github.com/novalagung/go-ternary](https://pkg.go.dev/github.com/novalagung/go-ternary)
 
 ## License
 
